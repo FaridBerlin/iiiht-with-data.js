@@ -1,0 +1,79 @@
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding: 0;
+    background-color: var(--color1);
+}
+
+body {
+   background:lightblue;
+}
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 1.6rem;
+    background-color: var(--color4);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+}
+
+button:hover {
+    background-color: skyblue;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* mobile */
+@media (max-width: 600px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}

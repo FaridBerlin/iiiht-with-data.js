@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Link to local FontAwesome CSS -->
+    <link rel="stylesheet" href="../font/fontawesome-free-6.6.0-web/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <img src="../logo/logo-for-phone-tablet--charger-in-the-car-.svg" alt="Logo" class="logo">
+                <span class="brand-name">IIIHT Tech</span>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger-menu">
+                &#9776;
+            </label>
+            <ul id="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#prod">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        
+    </header>
+
+    <a href="./cart.html">
+
+        <section class="hero">
+            
+            <h1>Top Car Charger Unbeatable Prices </h1>
+    
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div id="cartAmount" class="cartAmount">0</div>
+        
+        
+        </div>
+
+  
+        </section>
+
+
+    </a>
+         
+       
+   
+    
+    <div class="contact">
+        <h2>Contact Us</h2>
+            <p>If you have any questions or need help finding the right car charger for your needs, please don't hesitate to contact us. We are always happy to help!</p>
+
+
+            <form action="https://formspree.io/f/xrbgvozj"
+    method="POST">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street" required>
+
+        <label for="zipcode">Zipcode:</label>
+        <input type="text" id="zipcode" name="zipcode" required>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Tell us more..."></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+    </div>
+
+    
+    
+    <footer>
+        <p>&copy; 2024 IIIHT Tech. All rights reserved.</p>
+    </footer>
+    
+    <script src="../js/contact.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

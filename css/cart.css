@@ -1,0 +1,134 @@
+.text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+/* butten style */
+
+.HomeBtn, .checkoutFinal, .removeFinal{
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 800;
+    transition: all 0.3s;
+}
+
+.HomeBtn:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+.fa-x{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/**
+*  !Style for the Shoping cart checkout
+
+**/
+
+.shopping-cart{
+
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 1rem;
+
+
+}
+
+
+/**
+*  !Style for the Shoping cart from cart js
+
+**/
+
+.cartItem{
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: flex;
+}
+
+
+
+.titelPriceX{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    
+
+}
+
+.titel-price {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.cart-item-price{
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.3rem;
+
+}
+
+.cart-item-total {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: right;
+
+}
+
+.totalFinal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.checkoutFinal{
+    background-color: hsl(240, 100%, 50%);
+    width: 60%;
+    cursor: pointer;
+    
+}
+
+.removeFinal{
+    background-color:hsl(0, 100%, 50%);
+    width: 30%;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.checkoutFinal:hover{
+    background-color: hsl(240, 100%, 70%);
+    color: #000;
+    font-weight: bold;
+
+}
+
+.removeFinal:hover{
+    background-color: hsl(0, 100%, 70%);
+    color: #000;
+    font-weight: bold;
+
+}
